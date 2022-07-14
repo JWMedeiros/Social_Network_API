@@ -1,0 +1,30 @@
+{
+  "name": "Social_Network_API",
+  "version": "1.0.0",
+  "description": "A NoSQL backend for a mock social network.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JWMedeiros/Social_Network_API.git"
+  },
+  "keywords": [],
+  "author": "John Medeiros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JWMedeiros/Social_Network_API/issues"
+  },
+  "homepage": "https://github.com/JWMedeiros/Social_Network_API#readme"
+}

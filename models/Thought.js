@@ -19,9 +19,9 @@ const thoughtSchema = new Schema(
       virtuals: true,
     },
     id: false,
+    //Adds CreatedAt and UpdatedAt properties to Thoughts 
+    timestamps: true,
   },
-  //Adds CreatedAt and UpdatedAt properties to Thoughts 
-  { timestamps: true }
 );
 
 thoughtSchema.virtual('reactionCount')
